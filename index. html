@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho fixo -->
+    <header>
+        <div class="container">
+            <h1>Agro Forte</h1>
+            <nav>
+                <a href="#destaque">Início</a>
+                <a href="#equilibrio">Equilíbrio</a>
+                <a href="#tecnologias">Tecnologias</a>
+                <a href="#cadastro">Cadastro</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção de destaque -->
+    <section id="destaque">
+        <div class="container destaque-content">
+            <h2>Agro Forte, Futuro Sustentável</h2>
+            <p>Produzir mais, lucrar mais e proteger a natureza com tecnologia no campo.</p>
+        </div>
+    </section>
+
+    <!-- Seção sobre equilíbrio produção x natureza -->
+    <section id="equilibrio">
+        <div class="container">
+            <h2>Equilíbrio entre Produção e Meio Ambiente</h2>
+            <p>
+                O produtor rural moderno consegue aumentar sua produtividade utilizando tecnologias inteligentes, 
+                como sensores de solo, irrigação de precisão e gestão digital da fazenda, garantindo que o meio ambiente 
+                seja protegido. Sustentabilidade e lucratividade caminham juntas.
+            </p>
+        </div>
+    </section>
+
+    <!-- Seção de tecnologias -->
+    <section id="tecnologias">
+        <div class="container">
+            <h2>Tecnologias do Campo</h2>
+            <div class="tecnologia-grid">
+                <div class="tecnologia-item">
+                    <h3>Sensores de Solo</h3>
+                    <p>Monitoram a umidade e nutrientes, evitando desperdício e aumentando a produtividade.</p>
+                </div>
+                <div class="tecnologia-item">
+                    <h3>Irrigação de Precisão</h3>
+                    <p>Economiza água e garante irrigação eficiente, respeitando o ciclo natural do solo.</p>
+                </div>
+                <div class="tecnologia-item">
+                    <h3>Gestão Digital</h3>
+                    <p>Plataformas inteligentes auxiliam no planejamento, logística e tomada de decisão sustentável.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de cadastro -->
+    <section id="cadastro">
+        <div class="container">
+            <h2>Cadastre-se para receber novidades</h2>
+            <form>
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu email" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>© 2026 Agro Forte. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
